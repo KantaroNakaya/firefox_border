@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>firefoxでだけtableのborderが消える問題</title>
+    <meta name="description" content="coding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://placehold.jp/3d4070/ffffff/150x100.png?text=%E3%83%AD%E3%82%B4" alt="">
+        </div>
+        <h1>コーディング</h1>
+        <div class="openbtn">
+            <span></span><span></span><span></span>
+        </div>
+        <nav id="g-nav">
+            <ul>
+                <li><a href="#">Top</a></li> 
+                <li><a href="#">About</a></li> 
+                <li><a href="#">Service</a></li> 
+                <li><a href="#">Contact</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="">
+            <h2>テーブルタグ</h2><div class="table_wrap">
+                <div class="table_around">
+                    <table class="price_table">
+                        <thead>
+                            <tr>
+                                <th>タイプ</th>
+                                <th>何が入っているか</th>
+                                <th>価格（税込）</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th height="100px">
+                                    豚骨
+                                </th>
+                                <td>ゲンコツ、アバラ骨、背骨、頭、豚足のいずれか</td>
+                                <td rowspan="3" class="price">2,800円</td>
+                            </tr>
+                            <tr>
+                                <th height="100px">
+                                    醤油
+                                </th>
+                                <td>大豆、小麦、塩 </td>
+                            </tr>
+                            <tr>
+                                <th height="100px">
+                                    塩
+                                </th>
+                                <td>塩</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/base.js"></script>
+</body>
